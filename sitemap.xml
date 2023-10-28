@@ -19,7 +19,7 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/docs/medley/modern-medley-release-notes/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/docs/medley/modern-medley-release-notes/</loc>
   </url>
   
   <url>
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/docs/medley/orientation/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/docs/medley/orientation/</loc>
   </url>
   
   <url>
@@ -103,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/docs/medley/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/docs/medley/</loc>
   </url>
   
   <url>
@@ -127,7 +127,7 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/docs/medley/the-medley-interlisp-dsk-file-system/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/docs/medley/the-medley-interlisp-dsk-file-system/</loc>
   </url>
   
   <url>
@@ -159,7 +159,7 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/docs/medley/tips/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/docs/medley/tips/</loc>
   </url>
   
   <url>
@@ -267,6 +267,14 @@
   </url>
   
   <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/apps/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/emu-compat/</loc>
+  </url>
+  
+  <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/history/in-memoriam/</loc>
   </url>
   
@@ -275,11 +283,11 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/apps/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/apps/</loc>
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/apps/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/</loc>
   </url>
   
   <url>
@@ -295,7 +303,23 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/</loc>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/software/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/d-machines/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/medley/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/guis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/lisp/</loc>
   </url>
   
   <url>
@@ -312,6 +336,10 @@
   
   <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/parc-alto/</loc>
   </url>
   
 </urlset>
