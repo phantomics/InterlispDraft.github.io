@@ -111,6 +111,10 @@
   </url>
   
   <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/parc-alto/</loc>
+  </url>
+  
+  <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/getinvolved/</loc>
   </url>
   
@@ -132,6 +136,10 @@
   
   <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/using/docs/medley/the-medley-interlisp-dsk-file-system/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/d-machines/</loc>
   </url>
   
   <url>
@@ -179,6 +187,10 @@
   </url>
   
   <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/medley/</loc>
+  </url>
+  
+  <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/software/using/running/</loc>
   </url>
   
@@ -195,6 +207,10 @@
   </url>
   
   <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/guis/</loc>
+  </url>
+  
+  <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/about/comments/stories/</loc>
   </url>
   
@@ -204,6 +220,10 @@
   
   <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/using/running/running-on-win/</loc>
+  </url>
+  
+  <url>
+    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/lisp/</loc>
   </url>
   
   <url>
@@ -307,22 +327,6 @@
   </url>
   
   <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/d-machines/</loc>
-  </url>
-  
-  <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/medley/</loc>
-  </url>
-  
-  <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/guis/</loc>
-  </url>
-  
-  <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/lisp/</loc>
-  </url>
-  
-  <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/</loc>
   </url>
   
@@ -336,10 +340,6 @@
   
   <url>
     <loc>https://phantomics.github.io/InterlispDraft.github.io/stuff/</loc>
-  </url>
-  
-  <url>
-    <loc>https://phantomics.github.io/InterlispDraft.github.io/history/parc-alto/</loc>
   </url>
   
 </urlset>
