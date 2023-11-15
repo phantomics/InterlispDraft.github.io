@@ -156,7 +156,18 @@ if (!doNotTrack) {
 	
 </div>
 
-            
+            <div class="td-toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#download-and-install-from-a-release">Download and install from a release</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    
             
 
 	
@@ -216,28 +227,24 @@ if (!doNotTrack) {
 		
 	</header>
 	<p>You can install Medley on a variety of different computer systems:</p>
+<h3 id="download-and-install-from-a-release">Download and install from a release</h3>
 <ul>
-<li>Download and install from a release
-<ul>
-<li><a href="./running-on-mac">Running on Mac</a>
-(Is this active or still in progress? If it is not ready, I do not think we should not have it listed.)</li>
-<li><a href="./running-on-win">Running on Windows</a>
-<ul>
-<li>For Windows 10 or 11 with WSL1 or WSL2</li>
-</ul>
-</li>
 <li><a href="./running-on-linux">Running on Linux</a>
 <ul>
 <li>Packages for .deb distributions and source to build for others</li>
 </ul>
 </li>
+<li><a href="./running-on-mac">Running on Mac</a></li>
+<li><a href="./running-on-win">Running on Windows</a>
+<ul>
+<li>For Windows 10 or 11 with WSL1 or WSL2</li>
 </ul>
 </li>
 </ul>
 <p>It&rsquo;s important to understand that the Medley and the Interlisp software it&rsquo;s built on are the same for any computer it runs on. What&rsquo;s different is Maiko, the virtual machine emulator that hosts Interlisp on a given computer system. It works a bit like the Java Virtual Machine &ndash; and in fact Herb Jellinek, a member of the Interlisp team, went on to contribute to the Java project at Sun.</p>
 <p>If you&rsquo;d like to run Medley on another OS or machine architecture like BSD or Android, you can (re)build Maiko from source and then run in a release or even build your own images (sysouts).</p>
-<p>(Where does the link to the build topics fit into these pages?)</p>
-<p>See README.md files in the GitHub repo.</p>
+<!-- (Where does the link to the build topics fit into these pages?) -->
+<p>See the <a href="https://github.com/Interlisp/medley">Medley README</a> and <a href="https://github.com/Interlisp/maiko">Maiko README</a> files at their repository pages for more details.</p>
 
         <div class="section-index">
     
