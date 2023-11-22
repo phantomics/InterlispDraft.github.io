@@ -56,12 +56,12 @@
                 {{ end }}
               </div>
             </div>
-            <div class="carousel__prev"><a href="#carousel__slide2"
-                    >Go to last slide</a></div>
-            <div class="carousel__next"><a href="#carousel__slide2"
-                    >Go to next slide</a></div>
+            <!-- <div class="carousel__prev"><a href="#carousel__slide2">Go to last slide</a></div>
+            <div class="carousel__next"><a href="#carousel__slide2">Go to next slide</a></div> -->
           </div>
         </div>
+        <a class="carousel__prev" href="#carousel__slide2">Go to last slide</a>
+        <a class="carousel__prev" href="#carousel__slide2">Go to next slide</a>
         {{ with .Get "byline" | default "" -}}
         <div class="byline">{{ . }}</div>
         {{- end }}
@@ -90,12 +90,12 @@
                 {{ end }}
               </div>
             </div>
-            <div class="carousel__prev"><a href="#carousel__slide1"
-                    >Go to last slide</a></div>
-            <div class="carousel__next"><a href="#carousel__slide1"
-                    >Go to next slide</a></div>
+            <!-- <div class="carousel__prev"><a href="#carousel__slide1">Go to last slide</a></div>
+            <div class="carousel__next"><a href="#carousel__slide1">Go to next slide</a></div> -->
           </div>
         </div>
+        <a class="carousel__prev" href="#carousel__slide2">Go to last slide</a>
+        <a class="carousel__prev" href="#carousel__slide2">Go to next slide</a>
         {{ with .Get "byline" | default "" -}}
         <div class="byline">{{ . }}</div>
         {{- end }}
