@@ -224,6 +224,10 @@
   right: 1rem;
 }
 
+.td-overlay::after {
+    pointer-events: none;
+}
+
 /*.carousel::before,
 .carousel::after {
   content: '';
