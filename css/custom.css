@@ -75,6 +75,11 @@
   -ms-overflow-style: none;
 }
 
+.td-home .td-outer.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .carousel ol, .carousel li {
   list-style: none;
   height: 572px;
