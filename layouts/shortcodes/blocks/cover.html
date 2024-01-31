@@ -35,6 +35,7 @@
 
 <div class="carousel" aria-label="Gallery">
   <ol class="carousel__viewport">
+
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">
@@ -71,6 +72,7 @@
       {{/**/ -}}
 
     </li>
+    
     <li id="carousel__slide2"
         tabindex="0"
         class="carousel__slide">
@@ -82,14 +84,11 @@
           <div class="container td-overlay__inner">
             <!-- <img id="banner-hero-logo" class="hero-logo" alt="Interlisp Medley logotype" src="Resources/logoWindows.svg"> -->
             <div class="text-center">
-              {{ with .Get "title" }}<h1 class="display-1 mt-0 mt-md-5 pb-4">{{ $title := . }}{{ with $logo_image }}{{ $logo_image_resized := (.Fit (printf "70x70 %s" $logo_anchor)) }}<img class="td-cover-logo" src="{{ $logo_image_resized.RelPermalink }}" alt="{{ $title | html }} Logo">{{ end }}{{ $title | html }}</h1>{{ end }}
-              {{ with .Get "subtitle" }}<p class="display-2 text-uppercase mb-0">{{ . | html }}</p>{{ end }}
+              <h1 class="display-1 mt-0 mt-md-5 pb-4">PARC Design Pedigree</h1>
               <div class="pt-3 lead">
-                {{ if eq .Page.File.Ext "md" }}
-                {{ .Inner | markdownify }}
-                {{ else }}
-                {{ .Inner | htmlUnescape | safeHTML }}
-                {{ end }}
+                <div class="top-summary">
+  The modern GUI was invented at Xerox PARC. Medley represents the continuation of that research, with the goal of helping power users tackle the most unique and complex tasks.</div>
+                <div class="mx-auto mt-5"> <a class="btn btn-link text-white" href="#td-block-1" aria-label="Read more"><i class="fa-solid fa-circle-chevron-down" style="font-size: 400%"></i></a> </div>
               </div>
             </div>
             <!-- <div class="carousel__prev"><a href="#carousel__slide1">Go to last slide</a></div>
@@ -103,7 +102,68 @@
         {{- end }}
       </section>
       {{/**/ -}}
+    </li>
 
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height -}}
+                                          {{ if not .Site.Params.ui.navbar_translucent_over_cover_disable }} js-td-cover
+                                          {{- end }} td-overlay td-overlay--dark -bg-{{ $col_id }}">
+        <div class="col-12 hero-content-column"
+             style="background-image: url(./Resources/logoWindows.svg)">
+          <div class="container td-overlay__inner">
+            <!-- <img id="banner-hero-logo" class="hero-logo" alt="Interlisp Medley logotype" src="Resources/logoWindows.svg"> -->
+            <div class="text-center">
+              <h1 class="display-1 mt-0 mt-md-5 pb-4">Roads Not Taken</h1>
+              <div class="pt-3 lead">
+                <div class="top-summary">
+  The way computers work today isn't the only way that computers could work. Medley originally ran on the Xerox "D-Machines," which had a stack-based architecture far different from what we're used to today.</div>
+                <div class="mx-auto mt-5"> <a class="btn btn-link text-white" href="#td-block-1" aria-label="Read more"><i class="fa-solid fa-circle-chevron-down" style="font-size: 400%"></i></a> </div>
+              </div>
+            </div>
+            <!-- <div class="carousel__prev"><a href="#carousel__slide1">Go to last slide</a></div>
+            <div class="carousel__next"><a href="#carousel__slide1">Go to next slide</a></div> -->
+          </div>
+        </div>
+        <a class="carousel_link carousel__prev" href="#carousel__slide1">Go to last slide</a>
+        <a class="carousel_link carousel__next" href="#carousel__slide1">Go to next slide</a>
+        {{ with .Get "byline" | default "" -}}
+        <div class="byline">{{ . }}</div>
+        {{- end }}
+      </section>
+      {{/**/ -}}
+    </li>
+
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height -}}
+                                          {{ if not .Site.Params.ui.navbar_translucent_over_cover_disable }} js-td-cover
+                                          {{- end }} td-overlay td-overlay--dark -bg-{{ $col_id }}">
+        <div class="col-12 hero-content-column"
+             style="background-image: url(./Resources/logoWindows.svg)">
+          <div class="container td-overlay__inner">
+            <!-- <img id="banner-hero-logo" class="hero-logo" alt="Interlisp Medley logotype" src="Resources/logoWindows.svg"> -->
+            <div class="text-center">
+              <h1 class="display-1 mt-0 mt-md-5 pb-4">Interactive Development</h1>
+              <div class="pt-3 lead">
+                <div class="top-summary">
+  Medley is a tool that can be used to change itself, with an interactive programming model that extends all the way down into the system's assembly language.</div>
+                <div class="mx-auto mt-5"> <a class="btn btn-link text-white" href="#td-block-1" aria-label="Read more"><i class="fa-solid fa-circle-chevron-down" style="font-size: 400%"></i></a> </div>
+              </div>
+            </div>
+            <!-- <div class="carousel__prev"><a href="#carousel__slide1">Go to last slide</a></div>
+            <div class="carousel__next"><a href="#carousel__slide1">Go to next slide</a></div> -->
+          </div>
+        </div>
+        <a class="carousel_link carousel__prev" href="#carousel__slide1">Go to last slide</a>
+        <a class="carousel_link carousel__next" href="#carousel__slide1">Go to next slide</a>
+        {{ with .Get "byline" | default "" -}}
+        <div class="byline">{{ . }}</div>
+        {{- end }}
+      </section>
+      {{/**/ -}}
     </li>
   </ol>
 </section>
