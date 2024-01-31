@@ -200,7 +200,7 @@
   border-radius: 50%;
   font-size: 0;
   outline: 0;
-  background-color: #333;
+  /* background-color: #333; */
   background-size: 75% 75%;
   background-repeat: no-repeat;
   background-position: 35% 45%;
