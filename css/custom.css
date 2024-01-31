@@ -192,7 +192,7 @@
 .carousel__prev,
 .carousel__next {
   position: absolute;
-  top: 0;
+  top: -1rem;
   margin-top: 32%;
   width: 4rem;
   height: 4rem;
@@ -216,12 +216,12 @@
 
 /*.carousel::before,*/
 .carousel__prev {
-  left: 1rem;
+  left: 2rem;
 }
 
 /*.carousel::after,*/
 .carousel__next {
-  right: 1rem;
+  right: 2rem;
 }
 
 .td-overlay::after {
