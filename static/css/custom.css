@@ -157,6 +157,10 @@
   }
 }
 
+.carousel .td-cover-block {
+    height: 100%;
+}
+
 .carousel:hover .carousel__snapper,
 .carousel:focus-within .carousel__snapper {
   animation-name: none;
